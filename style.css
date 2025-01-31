@@ -1,0 +1,22 @@
+
+
+#Trendingcard{
+    transition: transform 0.3s ease;
+}
+#Trendingcard:hover{
+    transform: scale(1.1);
+}
+
+.number-overlay {
+    position: absolute;
+    top: 120px;
+    left: -20px;
+    color: black;
+    font-size: 90px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px white;
+}
+
+.accordion-button{
+    color: white;
+}
